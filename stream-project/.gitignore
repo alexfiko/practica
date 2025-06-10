@@ -1,5 +1,5 @@
 # Maven
-/src/
+/target/
 !.mvn/wrapper/maven-wrapper.jar
 
 # IDEs
