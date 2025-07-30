@@ -1,7 +1,9 @@
+server:
+  port: 8090  # O el puerto que prefieras
+  
 spring:
   profiles:
-    active: dev  # o "prod" en despliegue
-
+    active: prod  # o "prod" en despliegue
 eureka:
   client:
     service-url:
@@ -23,8 +25,6 @@ management:
   info:
     env:
       enabled: true
-
-
 info:
   app:
     name: Doctor Service
